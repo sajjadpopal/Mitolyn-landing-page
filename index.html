@@ -4,11 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mitolyn - Burn Fat Naturally & Boost Energy</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
       background: linear-gradient(to bottom right, #edf2f7, #cbd5e0);
     }
     .glow-button {
@@ -38,7 +48,7 @@
     }
   </style>
 </head>
-<body class="min-h-screen flex items-center justify-center py-10 px-4">
+<body class="min-h-screen flex items-center justify-center py-10 px-4 font-sans">
 
   <div class="bg-white p-6 md:p-10 rounded-3xl shadow-xl max-w-5xl w-full text-center">
     
@@ -131,7 +141,7 @@
 
     <!-- Footer -->
     <footer class="text-gray-500 text-xs">
-      <p>© 2025 [Your Brand]. Affiliate disclosure: this page promotes a product via ClickBank. Results may vary. Consult your doctor before use.</p>
+      <p>© 2025 Mitolyn. Affiliate disclosure: this page promotes a product via ClickBank. Results may vary. Consult your doctor before use.</p>
     </footer>
 
   </div>
